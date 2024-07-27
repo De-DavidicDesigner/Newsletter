@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: rgb(52, 109, 109);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.success {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 50%;
+    height: 70%;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+div h1 {
+    font-size: 3rem;
+}
+
+.success p {
+    font-size: 2rem;
+}
+
+.rounded {
+    padding: 35px 0 0 30px;
+}
